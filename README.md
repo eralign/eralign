@@ -16,9 +16,8 @@ To run with default setting, please use :
 ## Datasets
 You can download the dataset [here](https://drive.google.com/file/d/1Now8iTn37QYMOUC80swlBq9QKxKhFmSU/view?usp=share_link). 
 
-These datasets are provided by: 
+These datasets are provided by:   
 
 *Zequn Sun, Wei Hu, and Chengkai Li. 2017. ***Cross-Lingual Entity Alignment via Joint Attribute-Preserving Embedding***. In The Semantic Web – ISWC 2017*   
 
-Unzip them in same directory with `main.py`.  
   

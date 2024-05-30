@@ -160,15 +160,10 @@ def update_sims(refiner:Refiner, dataset:Dataset, iters:int, target:str="ent"):
                     b -= 2
                 else:
                     break
-            logger.info("Done")
         elif source_idxs.shape[0] > 10**9:
-            logger.info(f"{source_idxs.shape} 50")
             fin_sim = get_fin_sim_batch(50)
-            logger.info("Done")
         elif source_idxs.shape[0] > 10**8:
-            logger.info(f"{source_idxs.shape} 100")
             fin_sim = get_fin_sim_batch(100)
-            logger.info("Done")
         else :
             sub_sim = tf.gather_nd(
                     indices = np.column_stack([source_idxs[:,0],target_idxs[:,0]]),

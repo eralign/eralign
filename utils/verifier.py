@@ -135,7 +135,7 @@ class Verifier():
         append_count = 0
         reject_count = 0
         for i, s_id in enumerate(tqdm(test_pair[:,0])):
-            s_idx = dataset.id2idx["ent"][s_id]
+            s_idx = dataset.id2idx["ent"][0][s_id]
             rank_list = ranks2[s_idx,:topk]
             if results2[i][1]>topk-1 :
                 verify_ranks.append(rank_list)

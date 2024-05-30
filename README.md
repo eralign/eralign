@@ -6,7 +6,7 @@ This is the anonymized github repository for **ERAlign**, the proposed framework
 - numpy == 1.24.3
 - tensorflow == 2.13.0
 - torch == 2.0.1
-- scipy == 1.11.2
+- tqdm
 - sentence-transformers == 2.2.2
 
 ## Code
